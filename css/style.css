@@ -1,0 +1,121 @@
+.imglogo{
+    height: 50px;
+}
+.bgNavbar{
+    background-color: black;
+}
+.bg{
+    background-color: gray;
+}
+.textACard{
+    text-align: center;
+    margin-top: 23%;
+    
+}
+.white{
+    background-color: white;
+
+}
+.bgNavPic{
+background-image: url("../images/blue_1680x1050.jpg");
+}
+.navBtn{
+color: white;
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+margin-left: 25%;
+display: flex;
+justify-content: center;
+}
+.pageTitle{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.whiteC{
+    color:white ;
+    font-weight: 800;
+}
+
+.container1{
+    position: relative;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 735px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  
+  .container1:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  
+  .img1 {
+    position: absolute;
+    width: 735px;
+    height: 300px;
+    left: 0;
+  }
+  .img2 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 0;
+  }
+  
+  .title {
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 120px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+    margin-left: 10%;
+  }
+  
+  .container1:hover .title {
+    top: 90px;
+  }
+  
+  .button {
+    position: absolute;
+    width: 500px;
+    left:0;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+ a {
+    width: 200px;
+   
+    text-align: center;
+    color: white;
+    z-index: 1;
+    text-decoration: none;
+  }
+  
+  .container1:hover .button {
+    opacity: 1;
+  }

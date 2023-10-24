@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed-top">
+      <div class="container-fluid bgNavbar">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./images/Unknown-4.png" class="imglogo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end bgNavbar"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <img src="./images/Unknown-4 copy.png" alt="" />
+            <button
+              type="button"
+              class="btn-close white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body bgNavPic">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="active navBtn"
+                  aria-current="page"
+                  href="./Pages/Interest.html"
+                  >Interest</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="active navBtn" href="./Pages/Accomplishments.html"
+                  >Accomplishments</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner" style="height: 500px">
+        <div class="carousel-item active">
+          <img src="./images/CoralinePic.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/corline2.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="container1">
+          <img
+            class="img1"
+            src="./images/63b3fdf5-9f19-45f0-91b6-2047e9be3169-1673861587295.jpg"
+            alt=""
+          />
+          <div class="overlay">
+            <div>
+              <a class="title" href="./Pages/Interest.html">Interest</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="container1">
+          <img
+            class="img1"
+            src="./images/enhanced-4529-1496169797-8.jpg"
+            alt=""
+          />
+          <div class="overlay">
+            <div>
+              <a class="title" href="./Pages/Accomplishments.html"
+                >Accomplishments
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="card__content-container">
+          <h3 class="card__title">Something About Something</h3>
+          <p class="card__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic molestias eius dolor quasi.</p>
+          <a class="card__link" href="#">Read more</a>
+        </div> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
