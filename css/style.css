@@ -2,7 +2,7 @@
     height: 50px;
 }
 .bgNavbar{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .bg{
     background-color: gray;
@@ -32,7 +32,7 @@ justify-content: center;
     color: white;
     font-size: 40px;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 20px;
 }
 p{
     color: white;
@@ -40,7 +40,7 @@ p{
     text-align: center;
 }
 .whiteC{
-    color:white ;
+    background-color:white ;
     font-weight: 800;
 }
 
@@ -56,7 +56,7 @@ p{
     left: 0;
     width: 735px;
     height: 100%;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 0);
     transition: background 0.5s ease;
   }
   
@@ -118,4 +118,8 @@ p{
   
   .container1:hover .button {
     opacity: 1;
+  }
+  @media only screen and (max-width: 00px) {
+    /* For large screens: */
+    .h1{margin-top: 10% }
   }
